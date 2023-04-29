@@ -2,6 +2,8 @@
 
 Piyasanın en kaliteli portfolio sitesi.
 
+https://discord.gg/URRdEevccN
+
 
 
 # Websitesini Kendiniz görmek istiyorsanız.
