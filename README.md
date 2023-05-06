@@ -2,16 +2,24 @@
 
 Piyasanın en kaliteli portfolio sitesi.
 
-https://discord.gg/URRdEevccN
+[Discord Sunucusu](https://discord.gg/URRdEevccN)
 
 
+# Canlı Demo
 
-# Websitesini Kendiniz görmek istiyorsanız.
+[Website Önizlemesi](https://harmonydc.xyz) kısmından ulaşabilirsini.
 
-http://harmonydc.xyz adresinden giriş yapabilirsiniz.
+```Not: IP veya LOG sistemi bulunmamaktadır.```
 
-Not: IP log vb bilgilerinizi tutmuyor site. :smile: :smile:
+# Güncelleme
 
+```Versiyon 0.0.2 Güncellemesi```
+
+- Kutu tasarımları ve satın alma sistemi güncellemesi.
+- Gölgelendirme neon renkler ile canlı site görünümü.
+- Tools ve website copy araçlarının engellenmesi.
+
+![image](https://user-images.githubusercontent.com/60463845/236603207-872d1378-5f11-48de-9b04-da9d270b385d.png)
 
 
 
