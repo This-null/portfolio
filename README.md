@@ -7,7 +7,7 @@ Piyasanın en kaliteli portfolio sitesi.
 
 # Canlı Demo
 
-[Website Önizlemesi](https://harmonydc.xyz) kısmından ulaşabilirsini.
+[Website Önizlemesi](https://harmonydc.xyz) kısmından ulaşabilirsiniz.
 
 ```Not: IP veya LOG sistemi bulunmamaktadır.```
 
