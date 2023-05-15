@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+:root {
+  /* One dark colorscheme */
+  --background: #282c34;
+  --foreground: #abb2bf;
+  --comment: #5c6370;
+  --cyan: #56b6c2;
+  --green: #98c379;
+  --orange: #d19a66;
+  --pink: #c678dd;
+  --purple: #c678dd;
+  --red: #e06c75;
+  --yellow: #e5c07b;
+  --header-bg: #1e2127;
+  --header-text: #abb2bf;
+  --header-border: #5c6370;
+  --header-shadow: #1e2127;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: #fff;
+    background: var(--background);
+    font-family: "Rubik", sans-serif;
+
+    display: grid;
+    place-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: var(--header-bg);
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--header-shadow);
+    min-width: 450px;
+}
+
+form h2 {
+    text-align: center;
+    color: var(--header-text);
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid var(--header-border);
+    border-radius: 5px;
+    background: var(--header-bg);
+    color: var(--header-text);
+}
+
+form textarea {
+    padding: 10px;
+    border: 1px solid var(--header-border);
+    border-radius: 5px;
+    background: var(--header-bg);
+    color: var(--header-text);
+}
+
+/* Change outline */
+
+form input:focus,
+form textarea:focus {
+  outline: 1px solid var(--header-border);
+
+}
+
+/* Make the input type submit look pretty */
+
+form input[type="submit"] {
+  background: var(--header-bg);
+  color: var(--header-text);
+  border: 1px solid var(--header-border);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 5px 5px 0px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 300;
+  display: grid;
+  place-items: center;
+  transition: all 0.1s ease-in-out;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus,
+form input[type="submit"]:active {
+  background: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid var(--header-border);
+  transition: all 0.1s ease-in-out;
+}
+
+.fuck-go-back {
+  border-radius: 50%;
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 10px;
+  margin: 5px 5px 5px 0px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 300;
+  display: grid;
+  place-items: center;
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.fuck-go-back a {
+  text-decoration: none;
+  color: var(--header-text);
+  display: grid;
+  place-items: center;
+}
+
+p {
+  color: var(--comment);
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    min-width: 100%;
+  }
+
+}

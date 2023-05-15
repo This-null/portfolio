@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+     <link rel="icon" href="images/favicon-2.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>null - BAKIM</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRoboto:400,700" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+ 
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+ 
+        .fit-wide {
+            position: relative;
+            overflow: hidden;
+            max-width: 1240px;
+            margin: 0 auto;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+ 
+        .background-wrap {
+            position: relative;
+        }
+ 
+        .title {
+            position: relative;
+            text-align: center;
+            margin: 20px auto 10px;
+        }
+ 
+        .title--regular {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+ 
+        .title--size-large {
+            font-size: 36px;
+            line-height: 46px;
+        }
+ 
+        .title--size-semimedium {
+            font-size: 20px;
+            line-height: 28px;
+        }
+ 
+        .title--weight-normal {
+            font-weight: 400;
+        }
+ 
+        .title--weight-bold {
+            font-weight: 700;
+        }
+ 
+        .title--subtitle {
+            padding-bottom: 40px;
+            font-family: 'Open Sans', Arial,sans-serif;
+            text-align: center;
+        }
+ 
+        .error h1,
+        .error p {
+            color: #22B8D1;
+        }
+ 
+        .error--bg__cover {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+ 
+        .error--shape__clouds svg {
+            display: block;
+        }
+ 
+        .abstract-half-dot--circle {
+            z-index: 0;
+            position: absolute;
+            left: 15em;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+ 
+        .icon-graphic {
+            z-index: 1;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+ 
+        @media screen and (max-width: 767px) {
+            .error--bg__cover {
+                display: none;
+            }
+ 
+            .abstract-half-dot--circle {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+
+<!-- powderblue -->
+
+<body style="background-color:black;" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<script type="text/javascript">
+
+var omitformtags=["input", "textarea", "select"]
+
+omitformtags=omitformtags.join("|")
+
+function disableselect(e){
+if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
+return false
+}
+
+function reEnable(){
+return true
+}
+
+if (typeof document.onselectstart!="undefined")
+document.onselectstart=new Function ("return false")
+else{
+document.onmousedown=disableselect
+document.onmouseup=reEnable
+}
+
+</script>
+
+
+<script language="JavaScript">
+    document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+</script>
+    <script>
+    // Tarih ayarlarını buradan yapınız
+    var countDownDate = new Date("May 10, 2023 16:00:00").getTime();
+
+
+    var x = setInterval(function() {
+
+      var now = new Date().getTime();
+
+      var distance = countDownDate - now;
+
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown").innerHTML = days + " Gün " + hours + " Saat "
+      + minutes + " Dk " + seconds + " Sn ";
+
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "Geri sayım sona erdi";
+      }
+    }, 1000);
+  </script>
+    <div id="container">
+        <section class="error content background-wrap">
+                    <div class="fit-wide"><div>
+                    <div class="icon-graphic"></div>
+                </div>
+                <h1 class="title title--regular title--size-large title--weight-bold">Bakımdayız</h1>
+                <h1 class="title title--regular title--size-large title--weight-bold" id="countdown">Hesaplanıyor..</h1>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

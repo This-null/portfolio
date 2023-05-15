@@ -1,0 +1,91 @@
+.pricing-section .container {
+	margin-bottom: -40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-plan {
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-plan .pricing-title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 16px;
+	border-radius: 14px;
+	margin-bottom: 15px;
+	background: #7246b3;
+	/* Old browsers */
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #7246b3 0%, #431483 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#7246b3), to(#431483));
+	background: -o-linear-gradient(left, #7246b3 0%, #431483 100%);
+	background: linear-gradient(to right, #7246b3 0%, #431483 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7246b3', endColorstr='#431483', GradientType=1);
+	/* IE6-9 */
+}
+
+.pricing-plan .pricing-title h4 {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.pricing-plan .pricing-body {
+    font-family: 'Montserrat', sans-serif;
+	background: #302f4e;
+	text-align: center;
+	padding: 54px 68px 52px;
+	border-radius: 14px;
+}
+
+.pricing-plan .pricing-body h2 {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: #f8f7fa;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+
+.pricing-plan .pricing-body h2 span {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.pricing-plan .pricing-body ul {
+    font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	padding-bottom: 21px;
+}
+
+.pricing-plan .pricing-body ul li {
+    font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	line-height: 1;
+	margin-bottom: 36px;
+}
+
+.pricing-plan .pricing-body .site-btn {
+    font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 22px;
+	line-height: 1.1;
+}
+
+.pricing-plan.gold-plan .pricing-title {
+    font-family: 'Montserrat', sans-serif;
+	background: #eb2b63;
+}
+
+.pricing-plan.gold-plan .pricing-body {
+    font-family: 'Montserrat', sans-serif;
+	-webkit-box-shadow: inset 0 0 0 2px #eb2b63, 0px 32px 43px rgba(0, 0, 0, 0.35);
+	box-shadow: inset 0 0 0 2px #eb2b63, 0px 32px 43px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Footer */
